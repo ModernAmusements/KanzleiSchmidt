@@ -34,6 +34,7 @@
 }
 
 .navbar-light {
+   
     .navbar-brand {
         color: $gray-800;
     }
@@ -105,7 +106,7 @@
                 bottom: 100%;
                 transform: rotate(-45deg) translateY(1rem);
                 z-index: -5;
-                border-radius: $border-radius-sm;
+                // border-radius: $border-radius-sm;
             }
         }
 
@@ -159,13 +160,13 @@
 
 // Transparent navbar
 .navbar-transparent {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-    background-color: transparent;
-    border: 0;
-    box-shadow: none;
+     position: absolute;
+     top: 0;
+     width: 100%;
+     z-index: 100;
+     background-color: transparent;
+     border: 0;
+     box-shadow: none;
 
     .navbar-brand {
         color: rgba(255, 255, 255, 1);
@@ -265,7 +266,7 @@
                 height: 2px;
                 border-radius: 2px;
                 opacity: 1;
-                background: #283448;
+                background: #FF6C00;
             }
 
             :nth-child(1) {
@@ -281,7 +282,7 @@
             display: block;
             padding-bottom: 1rem;
             margin-bottom: 1rem;
-            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            border-bottom: 1px solid #FF6C00;
         }
 
         .collapse-brand {
@@ -298,8 +299,8 @@
     .navbar-collapse.collapsing,
     .navbar-collapse.show {
         padding: 1.5rem;
-        border-radius: $border-radius;
-        background: #FFF;
+        // border-radius: $border-radius;
+        background: rgb(0, 0, 0);
         box-shadow: 0 50px 100px rgba(50,50,93,.1),0 15px 35px rgba(50,50,93,.15),0 5px 15px rgba(0,0,0,.1);
         animation: show-navbar-collapse .2s ease forwards;
     }

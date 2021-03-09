@@ -2,8 +2,10 @@
     <div>
         <hero></hero>
         <carousel></carousel>
+        <sectionOne></sectionOne>
         <cards></cards>
         <icons></icons>
+        <sectionTwo></sectionTwo>
         <team></team>
         <cta></cta>
           <section class="section section-shaped my-0 overflow-hidden">
@@ -62,6 +64,8 @@
 <script>
 import Hero from "./components/Hero";
 import Cards from "./components/Cards";
+import SectionOne from "./components/SectionOne";
+import SectionTwo from "./components/SectionTwo";
 import Cta from "./components/Cta";
 import Team from "./components/Team";
 import BasicElements from "./components/BasicElements";
@@ -79,6 +83,8 @@ export default {
   components: {
     Hero,
     Cards,
+    SectionOne,
+    SectionTwo,
     Team,
     Cta,
     BasicElements,

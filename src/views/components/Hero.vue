@@ -29,10 +29,9 @@
             <div class="btn-wrapper">
               <base-button
                 tag="a"
-                outline
                 href="https://demos.creative-tim.com/vue-argon-design-system/documentation"
                 class="mb-3 mb-sm-0"
-                type="primary"
+                type="white"
               >
                 Kontakt aufnehmen
               </base-button>

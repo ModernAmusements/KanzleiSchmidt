@@ -1,6 +1,6 @@
 <template>
   <div class="profile-page">
-    <section class="section-profile-cover section-shaped my-0">
+    <section class="section-profile-cover bg-gradient-default section-shaped my-0">
     </section>
     <section class="section section-skew">
       <div class="container">
@@ -85,9 +85,16 @@
         </card>
       </div>
     </section>
+      <sectionTwo></sectionTwo>
   </div>
 </template>
 <script>
-export default {};
+import SectionTwo from "./components/SectionTwo";
+export default {
+  name: "components",
+  components: {
+    SectionTwo
+  }
+};
 </script>
 <style></style>

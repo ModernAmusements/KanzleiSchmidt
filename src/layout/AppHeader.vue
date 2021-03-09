@@ -1,6 +1,6 @@
 <template>
     <header class="header-global">
-        <base-nav class="fixed-top navbar-main" type="" effect="light" expand>
+        <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
                 <img src="img/brand/white.png" alt="logo">
             </router-link>
@@ -18,11 +18,11 @@
 
             <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <span class="lead text-white nav-link-inner--text">Kanzlei</span>
+                        <span class="text-white nav-link-inner--text">Kanzlei</span>
                     </a>
                 <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <span class="lead text-white nav-link-inner--text">Rechtsgebiete</span>
+                        <span class="text-white nav-link-inner--text">Rechtsgebiete</span>
                     </a>
                     <router-link to="/landing" class="dropdown-item">Migrationsrecht</router-link>
                     <router-link to="/profile" class="dropdown-item">Familienrecht</router-link>
@@ -31,12 +31,11 @@
                 </base-dropdown>
                      <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
-                        <span class="lead text-white nav-link-inner--text">Rechtanwälte</span>
+                        <span class="text-white nav-link-inner--text">Rechtanwälte</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Migrationsrecht</router-link>
-                    <router-link to="/profile" class="dropdown-item">Familienrecht</router-link>
-                    <router-link to="/login" class="dropdown-item">Erbrecht</router-link>
-                    <router-link to="/register" class="dropdown-item">Strafrecht</router-link>
+                    <router-link to="/landing" class="dropdown-item">Schmidt-Blümel</router-link>
+                    <router-link to="/profile" class="dropdown-item">Elke Hubert</router-link>
+                    <router-link to="/login" class="dropdown-item">Felix Beise</router-link>
                 </base-dropdown>
             </ul>
         </base-nav>

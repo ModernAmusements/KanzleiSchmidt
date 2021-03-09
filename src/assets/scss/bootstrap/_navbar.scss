@@ -197,8 +197,8 @@
 // Dark links against a light background
 .navbar-light {
   // border-bottom: 1px solid #000;
-  background-color: rgba(0, 0, 0, 0.7);
-  backdrop-filter: saturate(180%) blur(20px);
+  // background-color: rgba(0, 0, 0, 0.7);
+  // backdrop-filter: saturate(180%) blur(20px);
   .navbar-brand {
     color: $navbar-light-active-color;
 

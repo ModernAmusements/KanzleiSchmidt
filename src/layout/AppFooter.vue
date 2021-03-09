@@ -48,15 +48,15 @@
                 </div>
             </div> -->
             <hr>
-            <div class="row align-items-center justify-content-md-between">
-                <div class="col-md-6">
+            <div class="row align-items-center justify-content-center justify-content-md-between">
+                <div class="justify-content-center">
                     <div class="copyright">
                         &copy; {{year}}
                         <a href="https://www.creative-tim.com" target="_blank" rel="noopener">Kanzlei Schmidt-Blümel</a> & <a href="https://www.binarcode.com" target="_blank" rel="noopener">Partner</a>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <ul class="nav nav-footer justify-content-end">
+                    <ul class="nav nav-footer justify-content-sm-center justify-content-md-end">
                         <li class="nav-item">
                             <a href="https://www.creative-tim.com" class="nav-link" target="_blank" rel="noopener">Impressum</a>
                         </li>
