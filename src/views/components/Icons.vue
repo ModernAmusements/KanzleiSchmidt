@@ -3,8 +3,8 @@
         <div class="container" @mouseleave="showIconsAnimation = false">
             <div class="row justify-content-center" @mouseover="showIconsAnimation = true">
                 <div class="col-lg-8 text-center">
-                    <h2 class="display-3 text-white">BR2LAW</h2>
-                    <p class="lead text-white">
+                    <h2 class="display-3">BR2LAW</h2>
+                    <p class="lead">
                        Rechtsgebiete der Kanzlei Schmidt-Blümel in München. Die Kanzlei hat sich auf die folgenden Rechtsgebiete spezialisiert:
                     </p>
                     <div class="btn-wrapper">
@@ -37,7 +37,7 @@
                         <i class="icon ni ni-camera-compact"></i>
                         <i class="icon ni ni-chart-bar-32"></i>
                     </div>
-                    <span class="blur-hidden h5 text-white">Entdecken Sie unsere Rechtsgebiete</span>
+                    <span class="blur-hidden h5 ">Entdecken Sie unsere Rechtsgebiete</span>
                 </a>
             </div>
         </div>

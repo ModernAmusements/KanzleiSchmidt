@@ -339,9 +339,8 @@
                     <div class="p-5">
                         <div class="row align-items-center">
                             <div class="col-lg-8">
-                                <h3 class="text-white">We made website building easier for you.</h3>
-                                <p class="lead text-white mt-3">I will be the leader of a company that ends up being
-                                    worth billions of dollars, because I got the answers. I understand culture.</p>
+                                <h3 class="text-white">Anmeldeformular</h3>
+                                <p class="lead text-white mt-3">Dieses Formular dient zur Bestätigung eines vereinbarten Termins und zur Erfassung Ihrer Kontaktdaten. Die Daten werden vertraulich und entsprechend der EU-Datenschutzgrundverordnung (DSGVO) behandelt.</p>
                             </div>
                             <div class="col-lg-3 ml-lg-auto">
                                 <base-button tag="a" href="https://www.creative-tim.com/product/vue-argon-design-system"
@@ -364,10 +363,8 @@
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="display-3 text-white">Build something</h2>
-                        <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-                            tihs year down to low ice.</p>
+                        <h2 class="display-3 text-white">Anmeldeformular</h2>
+                        <p class="lead text-white">Dieses Formular dient zur Bestätigung eines vereinbarten Termins und zur Erfassung Ihrer Kontaktdaten. Die Daten werden vertraulich und entsprechend der EU-Datenschutzgrundverordnung (DSGVO) behandelt.</p>
                     </div>
                 </div>
                 <div class="row row-grid mt-5">
