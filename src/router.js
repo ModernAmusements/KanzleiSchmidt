@@ -5,6 +5,9 @@ import AppFooter from "./layout/AppFooter";
 import Components from "./views/Components.vue";
 import Landing from "./views/Landing.vue";
 import Login from "./views/Login.vue";
+import Carolin from "./views/Carolin.vue";
+import Erbrecht from "./views/Erbrecht.vue";
+import Strafrecht from "./views/Strafrecht.vue";
 import Register from "./views/Register.vue";
 import Profile from "./views/Profile.vue";
 
@@ -55,6 +58,33 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Profile,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/erbrecht",
+      name: "erbrecht",
+      components: {
+        header: AppHeader,
+        default: Erbrecht,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/strafrecht",
+      name: "strafrecht",
+      components: {
+        header: AppHeader,
+        default: Strafrecht,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/carolin",
+      name: "carolin",
+      components: {
+        header: AppHeader,
+        default: Carolin,
         footer: AppFooter
       }
     }

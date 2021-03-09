@@ -1,85 +1,81 @@
 <template>
-  <div class="profile-page">
-    <section
-      class="section-profile-cover bg-gradient-default section-shaped my-0"
-    ></section>
-    <section class="section section-skew">
-      <div class="container">
-        <card shadow class="card-profile mt--300" no-body>
-          <div class="px-4">
+    <section class="section section-shaped section-lg my-0">
+        <div class="shape shape-style-1 bg-gradient-default">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="container pt-lg-md">
             <div class="row justify-content-center">
-              <div class="col-lg-3 order-lg-2">
-                <div class="card-profile-image">
-                  <a href="#">
-                    <img v-lazy="'img/theme/team-2-800x800.jpg'" class="rounded" />
-                  </a>
+                <div class="col-lg-5">
+                    <card type="secondary" shadow
+                          header-classes="bg-white pb-5"
+                          body-classes="px-lg-5 py-lg-5"
+                          class="border-0">
+                        <template>
+                            <div class="text-muted text-center mb-3">
+                                <small>Sign in with</small>
+                            </div>
+                            <div class="btn-wrapper text-center">
+                                <base-button type="neutral">
+                                    <img slot="icon" src="img/icons/common/github.svg">
+                                    Github
+                                </base-button>
+
+                                <base-button type="neutral">
+                                    <img slot="icon" src="img/icons/common/google.svg">
+                                    Google
+                                </base-button>
+                            </div>
+                        </template>
+                        <template>
+                            <div class="text-center text-muted mb-4">
+                                <small>Or sign in with credentials</small>
+                            </div>
+                            <form role="form">
+                                <base-input alternative
+                                            class="mb-3"
+                                            placeholder="Email"
+                                            addon-left-icon="ni ni-email-83">
+                                </base-input>
+                                <base-input alternative
+                                            type="password"
+                                            placeholder="Password"
+                                            addon-left-icon="ni ni-lock-circle-open">
+                                </base-input>
+                                <base-checkbox>
+                                    Remember me
+                                </base-checkbox>
+                                <div class="text-center">
+                                    <base-button type="primary" class="my-4">Sign In</base-button>
+                                </div>
+                            </form>
+                        </template>
+                    </card>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <a href="#" class="text-light">
+                                <small>Forgot password?</small>
+                            </a>
+                        </div>
+                        <div class="col-6 text-right">
+                            <a href="#" class="text-light">
+                                <small>Create new account</small>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-4 order-lg-3 text-lg-right align-self-lg-center">
-                <div class="card-profile-actions py-4 mt-lg-0">
-                  <base-button type="outline" size="sm" class="mr-4">Kontakt</base-button>
-                  <base-button type="default" size="sm" class="float-right"
-                    >Nachricht</base-button
-                  >
-                </div>
-              </div>
-              <div class="col-lg-4 order-lg-1">
-                <div class="card-profile-stats d-flex justify-content-center">
-                  <div>
-                    <span class="heading">2012</span>
-                    <span class="description lead">Fachanwältin</span>
-                  </div>
-                  <div>
-                    <span class="heading">2013</span>
-                    <span class="description lead">Fachanwaltslehrgang</span>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="text-center mt-5">
-              <h3>
-                Schmidt-Blümel
-                <span class="font-weight-light">, 50</span>
-              </h3>
-              <div class="h6 lead font-weight-300">
-                <i class="ni location_pin mr-2"></i>München, Deutschland
-              </div>
-              <div class="h6 mt-4">
-                <i class="ni business_briefcase-24 mr-2"></i>Strafrecht - Erbrecht
-              </div>
-              <div class="lead">
-                <i class="ni education_hat mr-2"></i>Studium der Rechtswissenschaft an den
-                Universitäten Saarbrücken und Bonn.<br />
-                Seit 2014 fast ausschließlich im Migrationsrecht tätig.
-              </div>
-            </div>
-            <div class="mt-5 py-5 border-top text-center">
-              <div class="row justify-content-center">
-                <div class="col-lg-9">
-                  <p>
-                    Rechtsanwalt Erbrecht München <br />
-                    Rechtsanwaltskammer München Münchner Anwaltsverein im Deutschen
-                    Anwaltsverein (DAV) Arbeitsgemeinschaft Migrationsrecht im DAV Beirat
-                    der Refugee Law Clinic München
-                  </p>
-                  <a href="#">Mehr erfahren</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </card>
-      </div>
+        </div>
     </section>
-    <sectionTwo></sectionTwo>
-  </div>
 </template>
 <script>
-import SectionTwo from "./components/SectionTwo";
-export default {
-  name: "components",
-  components: {
-    SectionTwo,
-  },
-};
+export default {};
 </script>
-<style></style>
+<style>
+</style>

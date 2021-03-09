@@ -24,10 +24,10 @@
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
                         <span class="text-white nav-link-inner--text">Rechtsgebiete</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Migrationsrecht</router-link>
+                    <router-link to="/carolin" class="dropdown-item">Migrationsrecht</router-link>
                     <router-link to="/profile" class="dropdown-item">Familienrecht</router-link>
-                    <router-link to="/login" class="dropdown-item">Erbrecht</router-link>
-                    <router-link to="/register" class="dropdown-item">Strafrecht</router-link>
+                    <router-link to="/erbrecht" class="dropdown-item">Erbrecht</router-link>
+                    <router-link to="/strafrecht" class="dropdown-item">Strafrecht</router-link>
                 </base-dropdown>
                      <base-dropdown tag="li" class="nav-item">
                     <a slot="title" href="#" class="nav-link" data-toggle="dropdown" role="button">
